@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+ int main()
+ {
+  setlocale(LC_ALL, ".1251")
+ 	cout << "\n\n\tПечатаем таблицу квадратов целых положительных нечетных чисел" << endl;
+  int x, y;
+  for (int i = 0; i <10 ; i++)
+  {
+  	 x = a + 1; 
+  	 y = x * x;
+  	if (x % 2 !=0)
+    {
+  	printf("\n\tчисло %3d в квадрате равно %3d", x, y);
+    }
+ }
+system("pause");
+return 0;
+}
